@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Maximum and Minimum Values of a List</title>
+</head>
+
+<body>
+    <script>
+
+        // Solucion propia
+        // var min = function (list) {
+
+        //     return Math.min(...list);
+        // }
+
+        // var max = function (list) {
+
+        //     return Math.max(...list);
+        // }
+
+        // Mejor solucion 
+
+        const min = (list) => Math.min(...list);
+        const max = (list) => Math.max(...list);
+
+
+        //TEST
+
+        let numeros = [-1, -2, 33, 44, 55, -22];
+        console.log(max(numeros));
+        console.log(min(numeros));
+
+    </script>
+
+</body>
+
+</html>
